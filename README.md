@@ -28,13 +28,16 @@ A RESTful API for managing books and user reviews, built with Node.js, Express, 
    ```
 
 3. **Create a `.env` file** in the root directory:
+
    ```env
    PORT=5000
    MONGO_URI=mongodb+srv://<user>:<pass>@cluster.mongodb.net/mydb
    JWT_SECRET=your_jwt_secret
    ```
+Note :- My .env file is already present if you want your then delete and create your.
+Replace <user> and <pass> with your creds if you have using your .env.
 
-4. **Start the project**
+1. **Start the project**
    ```bash
    npm run dev
    ```
