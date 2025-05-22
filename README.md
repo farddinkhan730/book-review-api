@@ -34,8 +34,7 @@ A RESTful API for managing books and user reviews, built with Node.js, Express, 
    MONGO_URI=mongodb+srv://<user>:<pass>@cluster.mongodb.net/mydb
    JWT_SECRET=your_jwt_secret
    ```
-Note :- My .env file is already present if you want your then delete and create your.
-Replace <user> and <pass> with your creds if you have using your .env.
+  Note :- My .env file is already present if you want your then delete and create your.Replace user and pass with your creds if you are using your .env.
 
 1. **Start the project**
    ```bash
